@@ -10,6 +10,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <Router>
         <Routes>
+          
           <Route path="/" element={<Home />} />
           <Route path="/details/:id" element={<ImageDetails />} />
         </Routes>
